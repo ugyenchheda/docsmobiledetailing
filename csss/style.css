@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0px; padding:0px; background-image:url(../images/bg.jpg); background-repeat:repeat-x;}
+ul,li,div,span,img,br,p,h1,h2,h3,h4,h5,h6 { margin:0px; padding:0px; outline:none; border:none;}
+
+
+#wrapper { width:1012px; margin:0px auto; padding:0px; overflow:hidden; display:block;}
+
+#banner { width:1012px; float:left; height:110px}
+#logo { width:394px; height:84px; float:left; margin-top:10px;}
+#facebookss { width:90px; float:right; text-align:right; margin-top:7px;}
+#callus { width:540px; text-align:right; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#d9d4d4; float:right; line-height:23px;}
+#menu-content { width:1012px; float:left}
+#menu { height:32px; float:left;  background-image:url(../images/menubg.png); background-repeat:repeat-x;  width:1011px;  padding-top:6px; }
+#menu ul li { text-decoration:none; font-family:Arial, Helvetica, sans-serif;height:27px; border-right:1px solid #3f7514; font-size:14px; color:#FFFFFF;  list-style-type:none; float:left;  padding:0px 10px; font-weight:bold}
+#menu ul li a { list-style-type:none; margin-top:-8px; text-decoration:none; color:#FFFFFF;  float:left;  padding:0px 12px;  font-family:Arial, Helvetica, sans-serif; font-size:14px; line-height:45px; font-weight:bold }
+#menu ul li a:hover { color:#000000;}
+#menu ul li .activate { color:#000000}
+
+#content { width:1012px; float:left; background-color:#b9e1df;}
+h1 { font-family:Arial, Helvetica, sans-serif; font-size:24px; color:#404040; margin-top:15px; width:462px; font-weight:400}
+h2 { font-family:Arial, Helvetica, sans-serif; font-size:18px; color:#FF3300; margin-top:17px; width:297px; margin-left:25px; font-weight:300; margin-bottom:12px; }
+#welcome { width:462px; float:left; margin-top:30px;}
+#welcometxt { width:440px; float:left; font-family:Verdana, Arial, Helvetica, sans-serif; color:#333333; font-size:12px; line-height:21px;  background-image:url(../images/welcome-txt-bg.png); background-repeat:no-repeat; margin-top:6px;}
+#readmore { width:136px; height:43px; line-height:43px; float:right; background-image:url(../images/readmore.png); background-repeat:no-repeat; text-decoration:none; text-align:center; margin-top:30px;}
+#readmore a { list-style-type:none; line-height:43px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none;}
+#readmore a:hover { color:#000000; text-decoration:underline;}
+#slide { width:539px; float:right; margin-top:20px;}
+#slide p{font-family:Verdana, Arial, Helvetica, sans-serif; color:#333333; font-size:12px; line-height:21px}
+
+#largercontent { width:1012px; float:left; margin-top:20px; background-color:#b9e1df;}
+#left { width:290px; float:left; }
+#pricelist { width:290px; float:left; background-image:url(../images/ourservices-bg.png); background-repeat:no-repeat; height:470px;}
+#pricetag { width:290px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; list-style-type:none; text-decoration:none; color:#FFFFFF; }
+#pricetag li { font-family:Arial, Helvetica, sans-serif; font-size:14px; float:left; color:#FFFFFF; line-height:28px; list-style-image:url(../images/arrow.png); width:257px; margin-left:30px;}
+
+#right { width:695px; float:right; margin-left:20px; margin-top:30px;}
+.washbox { width:215px; float:left; margin-right:24px;}
+.image { width:215px; height:105px; float:left;}
+.txt { width:215px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#333333; margin-top:15px;}
+.getmore { width:100px; height:30px; line-height:30px; float:left; background-color:#000000; text-decoration:none; text-align:center; margin-top:40px;}
+.getmore a { list-style-type:none; line-height:30px; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-decoration:none; display:block;}
+.getmore a:hover { color:#FFFFFF; background-color:#003300; border:1px solid #FFFFFF;}
+#slogan { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#067f06; width:680px; float:left; font-weight:bold; margin-top:40px; margin-left:15px;}
+
+#footer { width:100%; float:left; margin-top:16px; background-color:#000000; margin:0pc; padding:0px;}
+#footertop { width:1012px; margin:0 auto; padding:0pc;}
+#copyright { width:500px; float:left; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; margin:20px 0px 20px 10px;}
+ #designed {  width:140px; float:right; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; margin:20px 0px 20px 10px;}
+ #designed a {  font-family:Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none; color:#00FF00}
+ #designed a:hover { color:#CC0033}
+ 
+.contact { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000000;}
+.map { width:670px; float:right; height:440px; border:3 px solid #CCCCCC;} 
+
+.img { width:760px; float:left;}
+.img li { list-style-type:none; margin-right:20px; float:left; margin-bottom:10px;}
+.slogan { width:700px; float:left; font-family:"Trajan Pro"; font-size:15px; color:#006600; text-align:center; margin-bottom:15px; font-weight:bold;}
+
+#galleryimage { width:800px; float:left;}
+#galleryimage ul li { margin:0; padding:0; float:left;}
+#galleryimage li { list-style-type:none; float:left; margin-right:10px;} 
+#galleryimage img { width:329px; height:228px; margin-right:10px; margin-bottom:20px; float:left;}
+.image1, .image2, .image3{width:350px; height:250px; border:2px #FFFFFF solid}
+.image2{width:250px; height:350px}
+.image3{width:250px; height:350px; float:left; margin:15px 20px}
