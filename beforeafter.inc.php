@@ -10,9 +10,6 @@
 
 <body>
 <div id="wrapper">  
-           
-		   <?php
- ?>         
   <div id="content">
     //Default header will be added int his part            
   </div> 
