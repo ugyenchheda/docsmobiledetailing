@@ -3,9 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Doc's Mobile Detail</title>
-<br />
-<link href="csss/style.css" rel="stylesheet" type="text/css" />
-
 </head>
 
 <body>
