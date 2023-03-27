@@ -17,15 +17,7 @@
     
          <?php
  ?>              
-  </div> <!--content ends here-->
-              
-                   </div><!--wrapper ends here-->
-                   
-                   
-                    <?php
- ?>
-           
-   
-
+  </div> 
+</div>
 </body>
 </html>
