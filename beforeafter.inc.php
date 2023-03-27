@@ -12,22 +12,13 @@
 <div id="wrapper">  
            
 		   <?php
- ?>
-             
-            
-           
-                
+ ?>         
   <div id="content">
     
          <?php
- ?>     
-                 
-               
+ ?>              
   </div> <!--content ends here-->
-                     
-                     
               
-             
                    </div><!--wrapper ends here-->
                    
                    
