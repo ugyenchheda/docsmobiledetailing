@@ -14,9 +14,7 @@
 		   <?php
  ?>         
   <div id="content">
-    
-         <?php
- ?>              
+    //Default header will be added int his part            
   </div> 
 </div>
 </body>
