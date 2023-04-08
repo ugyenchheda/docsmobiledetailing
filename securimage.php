@@ -1,58 +1,5 @@
 <?php
 
-
-/**
- ChangeLog
-
-  Fixes contributed by Mike Challis: http://www.642weather.com/weather/scripts.php
-   - Remove image type constants (I ran into an odd installation that errored because they cannot be redeclared)
-   - Easier color settings (now uses hex codes like #336699)
-   - Fix for sound files on Safari (safari was trying to download securimage.wav.php instead of securimage.wav)
-   - Improvement for PHP installation is configured without "--with-ttf".
-     It will automatically fail over to GD Fonts when TTF Fonts are not enabled in PHP.
-     Some users were reporting there was no error and the captcha was not working.
-
- 2.0.0
- - Add mathematical distortion to characters (using code from HKCaptcha)
- - Improved session support
- - Added Securimage_Color class for easier color definitions
- - Add distortion to audio output to prevent binary comparison attack (proposed by Sven "SavageTiger" Hagemann [insecurity.nl])
- - Flash button to stream mp3 audio (Douglas Walsh www.douglaswalsh.net)
- - Audio output is mp3 format by default
- - Change font to AlteHaasGrotesk by yann le coroller
- - Some code cleanup 
-
- 1.0.4 (unreleased)
- - Ability to output audible codes in mp3 format to stream from flash
-
- 1.0.3.1
- - Error reading from wordlist in some cases caused words to be cut off 1 letter short
-
- 1.0.3
- - Removed shadow_text from code which could cause an undefined property error due to removal from previous version
-
- 1.0.2
- - Audible CAPTCHA Code wav files
- - Create codes from a word list instead of random strings
-
- 1.0
- - Added the ability to use a selected character set, rather than a-z0-9 only.
- - Added the multi-color text option to use different colors for each letter.
- - Switched to automatic session handling instead of using files for code storage
- - Added GD Font support if ttf support is not available.  Can use internal GD fonts or load new ones.
- - Added the ability to set line thickness
- - Added option for drawing arced lines over letters
- - Added ability to choose image type for output
-
- */
-
-/**
- * Securimage CAPTCHA Class.
- *
- * @package    Securimage
- * @subpackage classes
- *
- */
 class Securimage {
 
 	/**
